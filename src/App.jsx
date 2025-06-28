@@ -4,7 +4,7 @@ import './App.css'
 function App() {
   const age = 20;
   return (
-    <div style={{backgroundColor: "red",}}>
+    <div style={{backgroundColor: "red", width: "100%", height: "100vh"}}>
       <h2>VOici un composant dans un autre fichier</h2>
       <p>Mon age est {age} ans</p>
       {
