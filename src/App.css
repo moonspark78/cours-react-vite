@@ -1,13 +1,35 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+body{
+  width: 100%;
   height: 100vh;
+  background-color: rgb(20,26,43);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 
+}
+
+.App{
+  width: 100%;
+}
+
+.compteur{
+  display: flex;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: #ffff;
+  color: rgb(24, 15, 15);
+  border-radius: 10px;
+  gap: 14px;
+}
+
+.compteur button{
+  padding: 8px;
+  ;
 }

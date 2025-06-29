@@ -4,10 +4,10 @@ import Compteur from './components/Compteur';
 
 function App() {
   const age = 20;
+  const nom = "Drcmind";
   return (
     <div className='App'>
-      <h2>Un composant Simple</h2>
-      <Compteur age={age}/>
+      <Compteur age={age} nom={nom}/>
     </div>
   )
 }

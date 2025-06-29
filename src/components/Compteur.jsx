@@ -1,12 +1,13 @@
 
 
 const Compteur = (props) => {
-    console.log(props);
+    const compteur = 5;
     
   return (
-    <div>
-        <h1>VOuas avez {props.age} ans </h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure atque eveniet laudantium.</p>
+    <div className="compteur">
+        <button>+</button>
+        <h2>{compteur}</h2>
+        <button>-</button>
     </div>
   )
 }
