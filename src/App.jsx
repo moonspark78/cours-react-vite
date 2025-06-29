@@ -7,8 +7,7 @@ function App() {
   return (
     <div className='App'>
       <h2>Un composant Simple</h2>
-      <br/>
-      <Compteur/>
+      <Compteur age={age}/>
     </div>
   )
 }
