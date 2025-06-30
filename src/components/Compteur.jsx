@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 
@@ -13,6 +13,11 @@ const Compteur = (props) => {
     const deincrementer = () => {
         setCompteur(compteur - 1);
     }
+
+
+    useEffect(() => {
+        console.log("Le compteur a été modifié");
+    }, [compteur]);
 
   return (
     <>
