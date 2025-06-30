@@ -15,12 +15,17 @@ const Compteur = (props) => {
     }
 
   return (
-    <div className="compteur">
-        <button onClick={incrementer}>+</button>
-        <h2 className={compteur <0 && "erreur"}>{compteur}</h2>
-        <button onClick={deincrementer}>-</button>
-    </div>
-  )
+    <>
+      {
+        props.age ? <p>Vous avez {props.age}</p> : null
+      }
+      <div className="compteur">
+          <button onClick={incrementer}>+</button>
+          <h2 className={compteur <0 && "erreur"}>{compteur}</h2>
+          <button onClick={deincrementer}>-</button>
+      </div>
+    </>
+    )
 }
 
 export default Compteur
