@@ -7,7 +7,11 @@ function App() {
   const nom = "Drcmind";
   return (
     <div className='App'>
-      <Compteur age={age} nom={nom}/>
+      <Compteur/>
+      <Compteur/>
+      <Compteur/>
+      <Compteur/>
+      <Compteur/>
     </div>
   )
 }

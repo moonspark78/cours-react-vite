@@ -27,6 +27,7 @@ body{
   color: rgb(24, 15, 15);
   border-radius: 10px;
   gap: 14px;
+  margin-bottom: 10px;
 }
 
 .compteur button{
