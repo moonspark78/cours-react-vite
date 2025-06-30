@@ -8,6 +8,9 @@ function App() {
   return (
     <div className='App'>
       <Compteur/>
+      { 
+        age > 20 && <Compteur age={age}/>
+      }
       <Compteur/>
       <Compteur/>
       <Compteur/>
