@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       <Compteur/>
       { 
-        age > 20 && <Compteur age={age}/>
+        age > 10 && <Compteur age={age}/>
       }
       <Compteur/>
       <Compteur/>
