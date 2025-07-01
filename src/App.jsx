@@ -1,6 +1,7 @@
 
 import './App.css'
 import Compteur from './components/Compteur';
+import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Post from './components/Post';
 
