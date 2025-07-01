@@ -2,7 +2,9 @@ import React from 'react'
 
 const Post = () => {
   return (
-    <div>Post</div>
+    <div>
+        <h1>Voici un Post</h1>
+    </div>
   )
 }
 
