@@ -7,14 +7,7 @@ function App() {
   const nom = "Drcmind";
   return (
     <div className='App'>
-      <Compteur/>
-      { 
-        age > 10 && <Compteur age={age}/>
-      }
-      <Compteur/>
-      <Compteur/>
-      <Compteur/>
-      <Compteur/>
+      
     </div>
   )
 }
