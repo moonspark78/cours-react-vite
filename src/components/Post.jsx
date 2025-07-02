@@ -1,9 +1,13 @@
 import React from 'react'
+import '../App.css'
+
+
+
 
 const Post = () => {
   return (
-    <div>
-        <h1>Voici un Post</h1>
+    <div className='post'>
+        
     </div>
   )
 }
