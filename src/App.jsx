@@ -28,12 +28,19 @@ function App() {
       titre: "Mon quatrième post",
       description: "Ceci est la description de mon quatrième post",
       liker: false
+    },{
+      id:5,
+      titre: "Mon cinquième post",
+      description: "Ceci est la description de mon cinquième post",
+      liker: false
     }
   ]);
   return (
     <div className='App'>
       <Navbar/>
-      <Post/>
+      {posts.map((p) => (
+        <Post/>
+      ))}
     </div>
   )
 }
