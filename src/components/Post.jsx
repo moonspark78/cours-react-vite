@@ -4,10 +4,12 @@ import '../App.css'
 
 
 
-const Post = () => {
+const Post = ({data}) => {
   return (
     <div className='post'>
-        
+        <div>
+          <h2>{data.titre}</h2>
+        </div>
     </div>
   )
 }
