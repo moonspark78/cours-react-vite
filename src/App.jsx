@@ -39,7 +39,7 @@ function App() {
     <div className='App'>
       <Navbar/>
       {posts.map((p) => (
-        <Post/>
+        <Post data={p}/>
       ))}
     </div>
   )
