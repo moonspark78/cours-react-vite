@@ -9,6 +9,7 @@ const Post = ({data}) => {
     <div className='post'>
         <div>
           <h2>{data.titre}</h2>
+          <p>{data.description}</p>
         </div>
     </div>
   )
