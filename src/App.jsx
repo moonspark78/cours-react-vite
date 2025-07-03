@@ -37,7 +37,8 @@ function App() {
   ]);
 
   const liker = (data) => {
-    console.log(data);
+    const donnerCopie = [...posts];
+    const index = posts.indexOf(data);
   }
 
   return (
