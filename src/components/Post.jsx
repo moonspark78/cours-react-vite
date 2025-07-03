@@ -11,6 +11,10 @@ const Post = ({data}) => {
           <h2>{data.titre}</h2>
           <p>{data.description}</p>
         </div>
+        <div>
+          <button>Liker</button>
+          <button>Effacer</button>
+        </div>
     </div>
   )
 }

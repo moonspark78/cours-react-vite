@@ -49,3 +49,8 @@ body{
   align-items: center;
   gap: 10px;
 }
+
+.btn{
+  display: flex;
+  gap: 10px;
+}
