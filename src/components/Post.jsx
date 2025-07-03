@@ -4,7 +4,7 @@ import '../App.css'
 
 
 
-const Post = ({data}) => {
+const Post = ({data, liker}) => {
   return (
     <div className='post'>
         <div>
@@ -12,7 +12,7 @@ const Post = ({data}) => {
           <p>{data.description}</p>
         </div>
         <div className='btn'>
-          <button>Liker</button>
+          <button onClick={liker}>Liker</button>
           <button className='delete'>Effacer</button>
         </div>
     </div>
