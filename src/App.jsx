@@ -36,8 +36,8 @@ function App() {
     }
   ]);
 
-  const liker = () => {
-    console.log("Post liké");
+  const liker = (data) => {
+    console.log(data);
   }
 
   return (
