@@ -35,11 +35,16 @@ function App() {
       liker: false
     }
   ]);
+
+  const liker = () => {
+    console.log("Post liké");
+  }
+
   return (
     <div className='App'>
       <Navbar/>
       {posts.map((p) => (
-        <Post data={p}/>
+        <Post data={p} liker={liker}/>
       ))}
     </div>
   )
