@@ -40,6 +40,10 @@ body{
   font-weight: bold;
 }
 
+.entete{
+  margin-bottom: 15px;
+}
+
 .post{
   background-color: blue;
   padding: 14px;
