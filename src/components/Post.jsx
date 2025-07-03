@@ -13,7 +13,7 @@ const Post = ({data}) => {
         </div>
         <div>
           <button>Liker</button>
-          <button>Effacer</button>
+          <button className='delete'>Effacer</button>
         </div>
     </div>
   )
