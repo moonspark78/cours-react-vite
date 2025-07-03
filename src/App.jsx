@@ -39,7 +39,9 @@ function App() {
   const liker = (data) => {
     const donnerCopie = [...posts];
     const index = posts.indexOf(data);
-  }
+    donnerCopie[index].liker = {...donnerCopie[index],liker: !posts[index].liker};
+    setPosts(donnerCopie);
+  } 
 
   return (
     <div className='App'>
