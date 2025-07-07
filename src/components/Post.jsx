@@ -6,7 +6,7 @@ import '../App.css'
 
 const Post = ({data, liker}) => {
   return (
-    <div className='post'>
+    <div className={'post'}>
         <div>
           <h2>{data.titre}</h2>
           <p>{data.description}</p>

@@ -53,6 +53,12 @@ body{
   align-items: center;
   gap: 10px;
 }
+.post .active{
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
 
 .btn{
   display: flex;
