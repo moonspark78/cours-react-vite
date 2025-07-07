@@ -12,7 +12,7 @@ const Post = ({data, liker}) => {
           <p>{data.description}</p>
         </div>
         <div className='btn'>
-          <button onClick={() => liker(data)}>{data.liker ? "Likers"}</button>
+          <button onClick={() => liker(data)}>{data.liker ? "Déja liker" : "Liker"}</button>
           <button className='delete'>Effacer</button>
         </div>
     </div>
