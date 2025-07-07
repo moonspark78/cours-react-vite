@@ -53,11 +53,11 @@ body{
   align-items: center;
   gap: 10px;
 }
-.post .active{
+.post.active{
   background-color: green;
   color: white;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .btn{
